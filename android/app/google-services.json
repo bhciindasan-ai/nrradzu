@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1031405027715",
+    "project_id": "med-review-datab",
+    "storage_bucket": "med-review-datab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031405027715:android:7c35e6e5b5416b37c536b6",
+        "android_client_info": {
+          "package_name": "com.example.my_flutter_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-J9sq7E1OWHqLsjkpzxD7Wdud_69TMF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

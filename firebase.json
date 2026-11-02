@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "med-review-datab",
+          "appId": "1:1031405027715:android:7c35e6e5b5416b37c536b6",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "med-review-datab",
+          "configurations": {
+            "android": "1:1031405027715:android:7c35e6e5b5416b37c536b6",
+            "ios": "1:1031405027715:ios:8ae9d1b5f6d2a5cbc536b6",
+            "macos": "1:1031405027715:ios:8ae9d1b5f6d2a5cbc536b6",
+            "web": "1:1031405027715:web:07e63da794403d28c536b6",
+            "windows": "1:1031405027715:web:7d5cf9e08135d365c536b6"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
